@@ -1,0 +1,80 @@
+
+.left{
+  color:var(--color-navbar);
+  display: block;
+  align-items: center;
+  
+}
+
+body{
+  margin: 0px;
+  background: rgb(203,203,203);
+  background: radial-gradient(circle, rgba(203,203,203,1) 6%, rgba(0,0,0,1) 97%);
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+ }
+ .navbar{ 
+  margin: 0px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  overflow: 1;
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+ }  
+.Car{
+margin-right: 5px
+}
+.about{
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.right{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.Menu{
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  list-style-type: none;
+  font-size: 1.6rem;
+  flex-grow: 1;
+}
+.logo {
+   margin-top: 15px;
+   margin-bottom: 2px;
+   margin-left: 0px;
+   margin-right: 15px;
+   display: flex;
+   align-items: center; 
+    width: 100px;
+    height: 100px;
+   
+  }
+ 
+h2{
+  display: flex;
+  justify-content: center;
+ 
+}
+p{
+    color:  radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,247,247,1) 100%);
+    font-family: 'Poppins', sans-serif;
+    padding-left: 17px;
+}
