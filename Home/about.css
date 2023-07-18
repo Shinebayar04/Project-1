@@ -1,7 +1,8 @@
 
 body{
   margin: 0px;
-  background-color: gray;
+  background: rgb(203,203,203);
+  background: radial-gradient(circle, rgba(203,203,203,1) 6%, rgba(0,0,0,1) 97%);
 }
 
 
@@ -40,8 +41,6 @@ a {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  background: rgb(87,196,176);
-  background: radial-gradient(circle, rgba(87,196,176,1) 0%, rgba(93,161,242,1) 100%);
 }
 
 .Menu{

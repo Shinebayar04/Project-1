@@ -4,7 +4,8 @@
 
 body{
   margin: 0px;
-  background-color: gray;
+  background: rgb(203,203,203);
+  background: radial-gradient(circle, rgba(203,203,203,1) 6%, rgba(0,0,0,1) 97%);
   flex-grow: 1;
 }
 
@@ -49,11 +50,15 @@ flex-grow: 1;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  background-color: 
-  #000000;
+  margin: 0px;
 }
 .title{
   margin: 0px;
+  flex-grow: 1;
+}
+.page{
+  display: flex;
+  flex-direction: row;
   flex-grow: 1;
 }
 .container{
@@ -61,7 +66,10 @@ flex-grow: 1;
   flex-direction: row;
   flex-grow: 1;
 }
-
+.idle{
+  display: flex;
+  justify-content: center;
+}
 .Menu{
     margin: 0px;
   display: flex;
