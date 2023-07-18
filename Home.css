@@ -57,15 +57,12 @@ margin-right: 5px
   flex-grow: 1;
 }
 .logo {
+  margin-top: 20px;
+  display: flex;
+  align-items: center; 
+  width: 120px;
+  height: 110px;
    margin-top: 15px;
-   margin-bottom: 2px;
-   margin-left: 0px;
-   margin-right: 15px;
-   display: flex;
-   align-items: center; 
-    width: 100px;
-    height: 100px;
-   
   }
  
 h2{

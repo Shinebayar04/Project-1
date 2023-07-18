@@ -50,16 +50,23 @@ flex-grow: 1;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  margin: 0px;
+  margin: 0px;}
+.text{
+
 }
 .title{
   margin: 0px;
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
 }
 .page{
   display: flex;
   flex-direction: row;
   flex-grow: 1;
+}
+.SP{
+ 
 }
 .container{
   display: flex;
@@ -81,13 +88,15 @@ flex-grow: 1;
 }
 
 .logo {
-    margin-top: 20px;
-    display: flex;
-    align-items: center; 
-    width: 120px;
-    height: 110px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center; 
+  width: 120px;
+  height: 110px;
   }
-
+.toyota{
+  margin-bottom: 0px;
+}
 p{
     color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;

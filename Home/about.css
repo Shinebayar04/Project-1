@@ -1,28 +1,22 @@
-
 body{
   margin: 0px;
   background: rgb(203,203,203);
   background: radial-gradient(circle, rgba(203,203,203,1) 6%, rgba(0,0,0,1) 97%);
 }
-
-
 h1{
   display: flex;
   justify-content: center;
 }
-
 .about{
   margin-right: 10px;
   margin-left: 5px;
   text-decoration: none;
   list-style-type: none;
 }
-
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-
 .navbar{
   margin: 0px;
   background-color: black;
@@ -36,13 +30,11 @@ a {
   z-index: 99;
   flex-grow: 1;
 }
-
 .container{
   display: flex;
   flex-direction: row;
   flex-grow: 1;
 }
-
 .Menu{
     margin: 0px;
   display: flex;
@@ -52,7 +44,6 @@ a {
   font-size: 1.7rem;
   flex-grow: 1;
 }
-
 .logo {
   margin-top: 20px;
    display: flex;
@@ -61,7 +52,6 @@ a {
     height: 115px;
     flex-grow: 1;
   }
-
 p{
     color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
@@ -79,9 +69,9 @@ p{
   flex-grow: 1;
 }
 .right{
-  padding-left: 35px;
-  width: 100%;
-  height: auto;
+   padding-left: 35px;
+   width: 100%;
+   height: auto;
    display: flex;
    flex-wrap: wrap;
    flex-grow: 1;
