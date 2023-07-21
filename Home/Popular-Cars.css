@@ -118,14 +118,17 @@ p{
     flex-grow: 1;
 }
 
-
-
-@media screen and (max-width: 600px) {
+@media screen and(max-width:500px){
   .container{
+    display: flex;
     flex-direction: column;
-     
   }
   .inc{
+    display: flex;
+    flex-direction: column;
+  }
+  .page{
+    display: flex;
     flex-direction: column;
   }
   .page{

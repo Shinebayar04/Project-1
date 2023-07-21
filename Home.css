@@ -71,24 +71,14 @@ p{
     font-family: 'Poppins', sans-serif;
     padding-left: 17px;
 }
-
-.container{
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-}
-.img{
-  width: 100%;
-}
-
-/*  screen width < 992px */
-@media screen and (max-width: 600px) {
+@media screen and(max-width:600px){
   .container{
-     
+    display: flex;
     flex-direction: column;
      
   }
-} 
+}
+
 
 
 
